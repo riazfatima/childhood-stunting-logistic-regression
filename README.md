@@ -88,6 +88,14 @@ Required R packages:
 * caret
 * pROC
 
+---
+
+## Note
+
+The dataset used in this analysis (MICS6 Punjab Survey) is not publicly included in this repository due to data licensing restrictions. It can be requested from UNICEF MICS program.
+
+This analysis is for academic and research purposes only.
+
 ## Author
 
 Fatima Riaz
