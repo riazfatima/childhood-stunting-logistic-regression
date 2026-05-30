@@ -1,0 +1,42 @@
+## Results Summary
+
+### Logistic Regression Performance
+
+| Metric | Value |
+|--------|-------|
+| Accuracy | 0.684 |
+| Sensitivity | 0.137 |
+| Specificity | 0.936 |
+| AUC | 0.658 |
+| Kappa | 0.091 |
+
+---
+
+## Key Predictors (Odds Ratios)
+
+| Variable | OR | Interpretation |
+|----------|----|----------------|
+| Child age (months) | 1.104 | Higher odds of stunting with increasing age |
+| BMI | 0.992 | Protective association |
+| Not breastfed (BD2No) | 1.171 | Higher odds of stunting |
+| Wealth index (Richest) | 0.366 | Strong protective effect |
+| Maternal education (Higher) | 0.439 | Protective effect |
+
+---
+
+## Interpretation of Results
+
+- Older children were associated with higher odds of stunting.
+- Children who were not breastfed (BD2No) had higher odds of stunting.
+- Higher maternal BMI showed a protective association against stunting.
+- Household wealth showed a strong protective gradient, with richer households having lower odds of stunting.
+- Higher maternal education was associated with reduced odds of stunting.
+- Child sex was not a statistically significant predictor in this model.
+
+---
+
+## Model Visualization
+
+### ROC Curve
+
+![ROC Curve](figures/ROC_Curve.png)
